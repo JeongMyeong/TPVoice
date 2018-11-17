@@ -35,7 +35,7 @@ public class BeverageGrid extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.beveragegridview);
-        int[] img = {R.drawable.item1,R.drawable.item2,R.drawable.item3,R.drawable.item4,R.drawable.item5,R.drawable.item6};
+        int[] img = {R.drawable.coffee1,R.drawable.coffee2,R.drawable.coffee3,R.drawable.coffee4,R.drawable.coffee5,R.drawable.coffee6,R.drawable.coffee7};
         Button btn [] = new Button[img.length];
         Integer [] numbtn = {};
         for(int i=0; i<img.length; i++){
